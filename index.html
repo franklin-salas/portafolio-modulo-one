@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <!-- Metadatos básicos -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Portafolio profesional con información sobre mi experiencia, proyectos y habilidades">
+   <meta name="keywords" content="desarrollador web, portafolio, HTML, CSS, proyectos">
+   <meta name="author" content="Franklin Salas Quispe">
+   
+   <!-- Título de la página -->
+   <link rel="shortcut icon" href="./img/logo-franklin.svg" type="image/svg+xml">
+   <title>Mi Portafolio Profesional</title>
+   
+   <!-- Enlace al archivo CSS principal -->
+   <link rel="stylesheet" href="css/main.css">
+   
+   <!-- Fuentes de Google -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <!-- Encabezado -->
+    <header id="inicio">
+        <nav class="navbar">
+            <div class="logo"><img src="./img/logo-franklin.svg" alt="logo" width="48px"> </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="./modulo1ejemplos/css-examples/indexflex.html">MCU</a></li>
+                <li><a href="./modulo1ejemplos/js-examples/index.html">Clase5</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        
+        <div class="hero">
+            <h1>Franklin Salas Quispe</h1>
+            <h2>Desarrollador Web Full-Stack</h2>
+            <p>Creando experiencias web excepcionales</p>
+            <a href="#contacto" class="btn-primary">Contáctame</a>
+        </div>
+    </header>
+    
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="./img/hero_img.jpg" alt="Foto de perfil de pepito de los palotes blanco">
+                </div>
+                <div class="profile-info">
+                    <p>Ingeniero informático con experiencia en desarrollo de aplicaciones web. Incorporar buenas prácticas y metodologías de desarrollo, manejo de diversas tecnologías modernas de desarrollo y arquitecturas de software.</p>
+                    <p>Actualmente trabajo en <span class="highlight">Grupo Paz.</span> como Desarrollador web, realizo diversas tareas como ser de agregación, modificación y mantenimiento de funcionalidades de software.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección Experiencia -->
+    <section id="experiencia" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Experiencia Profesional</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2025 - Presente</div>
+                    <div class="timeline-content">
+                        <h3>Desarrollador Web</h3>
+                        <h4>Grupo Paz.</h4>
+                        <p>Desarrollo web , agregación de funcionalidades, reportes de ventas y matendimiento de sistemas lagacy.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - 2025</div>
+                    <div class="timeline-content">
+                        <h3>Desarrollador Full Stack</h3>
+                        <h4>Mc4.</h4>
+                        <p>Desarrollé interfaces de usuario responsivas y optimicé el rendimiento de sitios web existentes.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - 2024</div>
+                    <div class="timeline-content">
+                        <h3>Desarrollador Web Junior</h3>
+                        <h4>Trueekt.</h4>
+                        <p>Desarrollo de web, agregación de funcionalidades y mantenimiento del modúlo de compras y ventas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="section">
+        <div class="container">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="./img/ecommerce_trueekt.png" alt="Imagen del Proyecto 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-commerce Trueekt</h3>
+                        <p>Desarrollo de plataforma de comercio electrónico con panel de administración.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>VUE.js</span>
+                        </div>
+                        <a href="#" class="btn-secondary">Ver proyecto</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="./img/pagina_muebles.png" alt="Imagen del Proyecto 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Tienda de Muebles</h3>
+                        <p>Diseño de tienda de muebles de madera con diseño responsivo.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#" class="btn-secondary">Ver proyecto</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="./img/sistema_pos.png" alt="Imagen del Proyecto 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Sistema POS</h3>
+                        <p>Sistema de gestión ventas para tiendas medianas y pequeñas.</p>
+                        <div class="project-tags">
+                            <span>Tailwind CSS</span>
+                            <span>Laravel</span>
+                            <span>Php</span>
+                        </div>
+                        <a href="#" class="btn-secondary">Ver proyecto</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección Hobbies -->
+    <section id="hobbies" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Mis Hobbies</h2>
+            <div class="hobbies-container">
+                <div class="hobby-item">
+                    <div class="hobby-icon">
+                        <i class="icon-hiking"></i>
+                    </div>
+                    <h3>Senderismo</h3>
+                    <p>Me encanta explorar nuevas rutas y conectar con la naturaleza durante los fines de semana.</p>
+                </div>
+                <div class="hobby-item">
+                    <div class="hobby-icon">
+                        <i class="icon-book"></i>
+                    </div>
+                    <h3>Lectura</h3>
+                    <p>Disfruto leyendo libros de ciencia ficción y novelas históricas en mi tiempo libre.</p>
+                </div>
+                <div class="hobby-item">
+                    <div class="hobby-icon">
+                        <i class="icon-camera"></i>
+                    </div>
+                    <h3>Fotografía</h3>
+                    <p>La fotografía de paisajes es mi forma de documentar mis viajes y expresar mi creatividad.</p>
+                </div>
+                <div class="hobby-item">
+                    <div class="hobby-icon">
+                        <i class="icon-code"></i>
+                    </div>
+                    <h3>Proyectos Open Source</h3>
+                    <p>Contribuyo a proyectos de código abierto y desarrollo mis propias herramientas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección Contacto -->
+    <section id="contacto" class="section">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <ul class="contact-list">
+                        <li><i class="icon-email"></i> franklin.salas.0093@gmail.com</li>
+                        <li><i class="icon-phone"></i> +591 72609502</li>
+                        <li><i class="icon-location"></i> santa cruz, bolivia</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/franklin50/" class="social-icon" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/franklin-salas" class="social-icon" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/franklin50/" class="social-icon" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <form action="https://formsubmit.co/framklin00186@gmail.com" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Asunto</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Pie de página -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./img/logo-franklin.svg" alt="logo" width="48px">
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre-mi">Sobre Mí</a></li>
+                        <li><a href="#experiencia">Experiencia</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#hobbies">Hobbies</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pepito de los Palotes. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/script.js" async></script>
+</body>
+</html>
